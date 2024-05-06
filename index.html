@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Parallax Effect</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html {
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+    .parallax {
+        /* The height needs to be set to a fixed value for the effect to work.*/
+        min-height: 100vh; 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text {
+        color: white;
+        font-size: 48px;
+        line-height: 100vh;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+</style>
+</head>
+<body>
+
+<div class="parallax" style="background-image: url('your-image1-url.jpg');">
+    <div class="text">Section 1</div>
+</div>
+
+<div class="parallax" style="background-image: url('your-image2-url.jpg');">
+    <div class="text">Section 2</div>
+</div>
+
+<div class="parallax" style="background-image: url('your-image3-url.jpg');">
+    <div class="text">Section 3</div>
+</div>
+
+</body>
+</html>
