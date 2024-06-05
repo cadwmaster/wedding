@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrea&Chris</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html {
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        background-repeat: repeat;
+        color: #333;
+    }
+    .header {
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        background-color: #fff;
+        background-size: auto 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header img {
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+    }
+    .container {
+        color: #1c1c1c;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        padding-top: 150px;
+    }
+    .adventures {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .grid-item {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 1:1 Aspect Ratio */
+        overflow: hidden;
+    }
+
+    .grid-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Cover the entire area */
+        transition: transform 0.3s ease;
+    }
+    .grid-item:hover img {
+        transform: scale(1.1);
+    }
+
+    .details {
+        margin-top: 32px;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <img src="img/logo.svg" alt="Andrea&Chris">
+        </a>
+    </div>
+
+    <div class="container">
+        <p id="contributeMessage">
+            Thank you so much for wanting to join our epic journey! We're beyond grateful for your support and generosity. 
+            Your contribution will help us fund all sorts of amazing activities, just like the ones in the pictures below. 
+            And as a token of our appreciation, we'll send you a cool postcard! 📬 Plus, you can keep up with all our shenanigans by following our trip on Polarsteps. 🚀📸
+        </p>
+        <p id="contributeThankyou">Thanks again for being so awesome!</p>
+    </div>
+
+    <div class="adventures">
+        <div class="grid-item"><img src="img/adventure_01.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_02.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_03.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_04.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_05.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_06.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_07.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_08.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_09.jpg" alt=""></div>
+        <div class="grid-item"><img src="img/adventure_10.jpg" alt=""></div>
+    </div>
+
+    <div class="details">
+        <img src="img/tikkie-qr.png" alt="Tikkie QR code">
+    </div>
+
+    <!-- Script reference -->
+    <script src="languageHandler.js"></script>
+</body>
+</html>

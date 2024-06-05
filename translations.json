@@ -1,0 +1,20 @@
+{
+    "en": {
+        "greetings": "🌸 Thank You for Joining Us on Our Special Day! 🌸",
+        "prefix": "Dear Friends and Family, <br><br>As our wedding day approaches, we are filled with excitement to celebrate this joyous occasion with each of you. We're truly grateful for your love and support as we embark on this new chapter together. <br><br> We are very happy and looking forward to celebrate a day full of love, laughter, and memorable moments. Your presence is the greatest gift we could hope for as we tie the knot in the place that means the most to us.",
+        "contribute": "Contribute to Our Honeymoon",
+        "thankyou": "We are looking forward to sharing this special day with you and making unforgettable memories. See you soon in the heart of Amsterdam!",
+        "goodbye": "Warmest regards, <br><br> <strong>Andrea & Chris</strong>",
+        "contribute.message": "Thank you so much for wanting to join our epic journey! We're beyond grateful for your support and generosity. Your contribution will help us fund all sorts of amazing activities, just like the ones in the pictures below. And as a token of our appreciation, we'll send you a cool postcard! 📬 Plus, you can keep up with all our shenanigans by following our trip on Polarsteps. 🚀📸",
+        "contribute.thankyou": "Thanks again for being so awesome!"
+    },
+    "de": {
+        "greetings": "🌸 Thank You for Joining Us on Our Special Day! 🌸 [DE]",
+        "prefix": "Dear Friends and Family, <br><br>As our wedding day approaches, we are filled with excitement to celebrate this joyous occasion with each of you. We're truly grateful for your love and support as we embark on this new chapter together. <br><br> We are very happy and looking forward to celebrate a day full of love, laughter, and memorable moments. Your presence is the greatest gift we could hope for as we tie the knot in the place that means the most to us.",
+        "contribute": "Contribute to Our Honeymoon",
+        "thankyou": "We are looking forward to sharing this special day with you and making unforgettable memories. See you soon in the heart of Amsterdam!",
+        "goodbye": "Warmest regards, <br><br> <strong>Andrea & Chris</strong>",
+        "contribute.message": "[DE]Thank you so much for wanting to join our epic journey! We're beyond grateful for your support and generosity. Your contribution will help us fund all sorts of amazing activities, just like the ones in the pictures below. And as a token of our appreciation, we'll send you a cool postcard! 📬 Plus, you can keep up with all our shenanigans by following our trip on Polarsteps. 🚀📸",
+        "contribute.thankyou": "Thanks again for being so awesome!"
+    }
+}

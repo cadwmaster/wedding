@@ -13,7 +13,7 @@
     body, html {
         height: 100%;
         font-family: Arial, sans-serif;
-        background-color: #AE9B7B;
+        background-color: #fff;
         background-repeat: repeat;
         color: #333;
     }
@@ -42,14 +42,14 @@
         position: relative;
     }
     .text {
-        color: white;
+        color: #1c1c1c;
         font-size: 48px;
         line-height: 100vh;
         text-align: center;
         background: rgba(0, 0, 0, 0.5);
     }
     .container {
-        color: #fff; 
+        color: #000; 
         max-width: 900px;
         margin: auto;
         padding: 20px;
@@ -57,20 +57,21 @@
     }
     .scroll-indicator {
         position: absolute;
-        bottom: 20px; /* Position towards the bottom of the section */
+        bottom: 40px; /* Position towards the bottom of the section */
         left: 50%; /* Center horizontally */
         transform: translateX(-50%); /* Align center */
         width: 30px;
         height: 30px;
-        border: 2px solid white;
+        border: 2px solid #1c1c1c;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         animation: bounce 2s infinite;
+        cursor: pointer;
     }
     .arrow {
-        border: solid white;
+        border: solid #1c1c1c;
         border-width: 0 2px 2px 0;
         display: inline-block;
         padding: 3px;
@@ -82,7 +83,7 @@
         position: fixed;
         height: 100px;
         width: 100%;
-        background-color: #AE9B7B;
+        background-color: #fff;
         z-index: 1;
         background-size: auto 100px;
         background-repeat: no-repeat;
@@ -104,28 +105,27 @@
 </head>
 <body>
 
-<div class="header" style="background-image: url('./img/logo.jpg');"></div>
+<div class="header" style="background-image: url('./img/logo.svg');"></div>
 
-<div class="parallax" style="background-image: url('./img/book.jpg'); background-size: 100% auto;">
-    <div class="scroll-indicator"><div class="arrow"></div></div>
+<div class="parallax" style="background-image: url('./img/book.png'); background-size: 60% auto;">
+    <div class="scroll-indicator" id="scrollArrow">
+        <div  class="arrow"></div>
+    </div>
 </div>
 
 <div class="parallax" style="background-image: url('./img/finland.jpg'); opacity: 0.85;"></div>
 
-<div class="container">
-    <h1>🌸 Thank You for Joining Us on Our Special Day! 🌸</h1>
-    <p>Dear Friends and Family,</p>
-    <p>As our wedding day approaches, we are filled with excitement to celebrate this joyous occasion with each of you. We're truly grateful for your love and support as we embark on this new chapter together.</p>
-    <p>We are very happy and looking forward to celebrate a day full of love, laughter, and memorable moments. Your presence is the greatest gift we could hope for as we tie the knot in the place that means the most to us.</p>
-    <p>While your presence is truly all we wish for, should you feel inclined to celebrate with a gift, we are dreaming of exploring the beautiful landscapes and rich cultures of South Asia for our honeymoon. For those interested in contributing to our adventure, details can be found below:</p>
-    <p><a href="YOUR_LINK_HERE">Contribute to Our Honeymoon</a></p>
-    <p>We are looking forward to sharing this special day with you and making unforgettable memories. See you soon in the heart of Amsterdam!</p>
-    <p>Warmest regards,</p>
-    <p><strong>Andrea & Chris</strong></p>
+<div class="container" id="textContainer">
+    <h1 id="greetings"></h1>
+    <p id="prefix"></p>
+    <p><a href="contribute.html" id="contribute"></a></p>
+    <p id="thankyou"></p>
+    <p id="goodbye"></p>
 </div>
 
+<!-- Script reference -->
 <script>
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', () => {
       var scrollPosition = window.scrollY;
       var viewHeight = window.innerHeight;
       var indicators = document.querySelectorAll('.scroll-indicator');
@@ -143,7 +143,12 @@
             }
       })
     });
-  </script>
 
+    document.getElementById("scrollArrow").addEventListener("click", () => {
+        document.getElementById('textContainer').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+  <script src="languageHandler.js"></script>
 </body>
 </html>
+
