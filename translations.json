@@ -1,20 +1,28 @@
 {
     "en": {
         "greetings": "🌸 Thank You for Joining Us on Our Special Day! 🌸",
-        "prefix": "Dear Friends and Family, <br><br>As our wedding day approaches, we are filled with excitement to celebrate this joyous occasion with each of you. We're truly grateful for your love and support as we embark on this new chapter together. <br><br> We are very happy and looking forward to celebrate a day full of love, laughter, and memorable moments. Your presence is the greatest gift we could hope for as we tie the knot in the place that means the most to us.",
-        "contribute": "Contribute to Our Honeymoon",
-        "thankyou": "We are looking forward to sharing this special day with you and making unforgettable memories. See you soon in the heart of Amsterdam!",
-        "goodbye": "Warmest regards, <br><br> <strong>Andrea & Chris</strong>",
-        "contribute.message": "Thank you so much for wanting to join our epic journey! We're beyond grateful for your support and generosity. Your contribution will help us fund all sorts of amazing activities, just like the ones in the pictures below. And as a token of our appreciation, we'll send you a cool postcard! 📬 Plus, you can keep up with all our shenanigans by following our trip on Polarsteps. 🚀📸",
-        "contribute.thankyou": "Thanks again for being so awesome!"
+        "prefix": "Dear Friends and Family, <br><br>As our wedding day approaches, we are really exited to celebrate this occasion with you.We are already looking forward to celebrate a day full of love, laughter and memorable moments. You being there with us is the greatest gift, but some of you have indicated that they do not consider their presence “enough” 😉. <br><br>For those of you who would like to gift us something, we would very much appreciate some support to make our upcoming honeymoon to Southeast Asia even more memorable. If you do not want to fold bills into butterflies, you can contribute to our adventures in Indonesia, Philippines and Vietnam directly here:",
+        "contribute": "CONTRIBUTE to Our Honeymoon",
+        "goodbye": "With love, <br><br> <strong>Andrea & Chris</strong>",
+        "contribute.greetings": "For our honeymoon, we are planning to spend September and October away from our home in Amsterdam. We first want to explore the Flores Islands in Indonesia, then spend some time in the Phillipines to work (and surf for Andrea) from there and conclude our time abroad with a trip through Vietnam.",
+        "contribute.message": "Your contributions will help us make our trip even more memorable. With your gifts, we can:",
+        "contribute.option1": "visit Padar Island and adopt a komodo …okay, maybe not adopt, but at least spot",
+        "contribute.option2": "get Chris a hammok to work from in the Phillipines and make sure Andrea can catch the best waves",
+        "contribute.option3": "eat tons of bánh mì (Vietnamese sandwiches) and other delicates in Vietnamese street food markets and light a latern at a lantern festivals in Hoi An.",
+        "contribute.thankyou": "We will post a link to our Polarsteps account, so that you can follow us on our adventures here and promise to send a postcard.",
+        "contribute.account": "Please find a Tikke QR or our account information for those who prefer to transfer instead of giving cash:<br><br>Account name: A N Weihrauch CJ<br>IBAN: NL79ABNA0100155421<br>BIC: ABNANL2A"
     },
     "de": {
         "greetings": "🌸 Thank You for Joining Us on Our Special Day! 🌸 [DE]",
-        "prefix": "Dear Friends and Family, <br><br>As our wedding day approaches, we are filled with excitement to celebrate this joyous occasion with each of you. We're truly grateful for your love and support as we embark on this new chapter together. <br><br> We are very happy and looking forward to celebrate a day full of love, laughter, and memorable moments. Your presence is the greatest gift we could hope for as we tie the knot in the place that means the most to us.",
-        "contribute": "Contribute to Our Honeymoon",
-        "thankyou": "We are looking forward to sharing this special day with you and making unforgettable memories. See you soon in the heart of Amsterdam!",
-        "goodbye": "Warmest regards, <br><br> <strong>Andrea & Chris</strong>",
-        "contribute.message": "[DE]Thank you so much for wanting to join our epic journey! We're beyond grateful for your support and generosity. Your contribution will help us fund all sorts of amazing activities, just like the ones in the pictures below. And as a token of our appreciation, we'll send you a cool postcard! 📬 Plus, you can keep up with all our shenanigans by following our trip on Polarsteps. 🚀📸",
-        "contribute.thankyou": "Thanks again for being so awesome!"
+        "prefix": "Liebe Freunde und Familie, <br><br>Unsere Hochzeitsfeier kommt tatsächlich schon immer näher und wir freuen uns schon sehr darauf diesen Tag mit euch zu feiern. Wir hoffen auf gutes Wetter, aber vorallem auf einen Tag voller Liebe, Lachen und schönen Momenten. <br><br> Da ihr mit uns feiert ist unser grösstes Geschenk, aber der eine oder andere hat sich schon bei uns gemeldet und uns nach Geschenkewünschen gefragt 😊. Wenn ihr uns etwas schenken wollt, würden wir uns sehr über einen Beitrag zu unserer Hochzeitreise in Südost Asien freuen. Wer keine Geldscheine als Schmetterlinge falten möchte, kann hier einen Beitrag zu unseren Abenteuern in Indonesien, den Philippinen und Vietnam machen:",
+        "contribute": "Unterstützt unsere Flitterwochen",
+        "goodbye": "Eure<br><br> <strong>Andrea & Chris</strong>",
+        "contribute.greetings": "Unsere Hochzeitsreise im September und Oktober wird uns (wenn alles nach Plan läuft) nach Südostasien führen. Zuerst möchten wir in Indonesien die Flores Islands erkunden, danach einige Zeit in den Phillipinen verbringen um dort zu arbeiten (und für Andrea zu surfen), und dann unsere Zeit in der Ferne mit einer Rundreise durch Vietnam krönen.",
+        "contribute.message": "Mit eurem Geschenk können wir unsere Reise noch wundervoller machen und",
+        "contribute.option1": "die Padar Isalnd besuchen und einen Komodo adoptieren..okay, vielleicht nicht gleich adoptieren, aber zumindestens sehen",
+        "contribute.option2": "Chris eine Hängematte organisieren aus der in den Phillipinen arbeiten kann und sicher stellen, dass Andrea die besten Wellen findet",
+        "contribute.option3": "Eine Menge bánh mì (vietnamesische Sandwiches) und andere Delikatessen auf den Streetfood Märkten schmausen und eine Laterne auf einem Laternenfestival in Hoi An anzünden.",
+        "contribute.thankyou": "Sobald wir uns auf den Weg machen, posten wir auch den link zu unserem Polarsteps Account, damit ihr unserer Reise folgen könnt und versprechen natürlich auch eine Postkarte zu schicken!",
+        "contribute.account": "Hier findet ihr einen TikkieQR oder unsere Kontoinformation für diejenigen, die lieber überweisen als Bargeld zu schenken:<br><br>Kontoname: A N Weihrauch CJ<br>IBAN: NL79ABNA0100155421<br>BIC: ABNANL2A"
     }
 }

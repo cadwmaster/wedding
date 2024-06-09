@@ -24,8 +24,13 @@ function applyTranslations(translations) {
         contribute:  document.getElementById('contribute'),
         thankyou: document.getElementById('thankyou'),
         goodbye: document.getElementById('goodbye'),
+        "contribute.greetings": document.getElementById('contributeGreetings'),
         "contribute.message": document.getElementById('contributeMessage'),
+        "contribute.option1": document.getElementById('contributeOption01'),
+        "contribute.option2": document.getElementById('contributeOption02'),
+        "contribute.option3": document.getElementById('contributeOption03'),
         "contribute.thankyou": document.getElementById('contributeThankyou'),
+        "contribute.account": document.getElementById('contributeAccount'),
     };
 
     for (let key in elements) {

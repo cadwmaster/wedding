@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Andrea&Chris</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <style>
     * {
         margin: 0;
@@ -12,7 +15,7 @@
     }
     body, html {
         height: 100%;
-        font-family: Arial, sans-serif;
+        font-family: "Poppins", sans-serif;
         background-color: #fff;
         background-repeat: repeat;
         color: #333;
@@ -52,7 +55,7 @@
         color: #000; 
         max-width: 900px;
         margin: auto;
-        padding: 20px;
+        padding: 40px;
         min-height: 600px;
     }
     .scroll-indicator {
@@ -89,6 +92,15 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    .header img {
+        height: 100px;
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .greetings {
+        margin: 24px 0;
+    }
     @keyframes bounce {
         0%, 20%, 50%, 80%, 100% {
             transform: translateY(0);
@@ -101,11 +113,14 @@
         }
     }
 
+
 </style>
 </head>
 <body>
 
-<div class="header" style="background-image: url('./img/logo.svg');"></div>
+<div class="header" >
+    <img src="img/logo.svg" alt="Andrea&Chris">
+</div>
 
 <div class="parallax" style="background-image: url('./img/book.png'); background-size: 60% auto;">
     <div class="scroll-indicator" id="scrollArrow">
@@ -119,7 +134,6 @@
     <h1 id="greetings"></h1>
     <p id="prefix"></p>
     <p><a href="contribute.html" id="contribute"></a></p>
-    <p id="thankyou"></p>
     <p id="goodbye"></p>
 </div>
 
@@ -145,7 +159,7 @@
     });
 
     document.getElementById("scrollArrow").addEventListener("click", () => {
-        document.getElementById('textContainer').scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('textContainer').scrollIntoView({ behavior: 'smooth', block: 'end' });
     });
   </script>
   <script src="languageHandler.js"></script>
